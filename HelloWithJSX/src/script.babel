@@ -1,0 +1,15 @@
+var element = {
+  name:"vraj",
+  age:20
+}
+ ReactDOM.render(
+   <div>
+    <h1>My name is {element.name}</h1>
+    <h2>Age is {element.age}</h2>
+    <HelloWorld/>
+   </div>,
+   document.getElementById("root")
+ )
+ function HelloWorld(){
+   return <h1>Print with function</h1>
+ }
