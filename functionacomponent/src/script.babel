@@ -1,0 +1,8 @@
+function Hello(props){
+  return <h1>Hey! {props.message}</h1>
+}
+
+ReactDOM.render(
+  <Hello message="new message"/>,
+   document.getElementById("root")
+)
